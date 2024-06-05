@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7558272B2C1095AF00CE5E9F /* countries_list.json in Resources */ = {isa = PBXBuildFile; fileRef = 7558272A2C1095AF00CE5E9F /* countries_list.json */; };
 		758C1C912A0A34E100B8BF88 /* Guess_The_FlagApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758C1C902A0A34E100B8BF88 /* Guess_The_FlagApp.swift */; };
 		758C1C932A0A34E100B8BF88 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758C1C922A0A34E100B8BF88 /* ContentView.swift */; };
 		758C1C952A0A34E100B8BF88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 758C1C942A0A34E100B8BF88 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7558272A2C1095AF00CE5E9F /* countries_list.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = countries_list.json; sourceTree = "<group>"; };
 		758C1C8D2A0A34E100B8BF88 /* Guess The Flag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Guess The Flag.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		758C1C902A0A34E100B8BF88 /* Guess_The_FlagApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guess_The_FlagApp.swift; sourceTree = "<group>"; };
 		758C1C922A0A34E100B8BF88 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +34,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		755827292C108F1D00CE5E9F /* JSON Data */ = {
+			isa = PBXGroup;
+			children = (
+				7558272A2C1095AF00CE5E9F /* countries_list.json */,
+			);
+			path = "JSON Data";
+			sourceTree = "<group>";
+		};
 		758C1C842A0A34E100B8BF88 = {
 			isa = PBXGroup;
 			children = (
@@ -51,6 +61,7 @@
 		758C1C8F2A0A34E100B8BF88 /* Guess The Flag */ = {
 			isa = PBXGroup;
 			children = (
+				755827292C108F1D00CE5E9F /* JSON Data */,
 				758C1C902A0A34E100B8BF88 /* Guess_The_FlagApp.swift */,
 				758C1C922A0A34E100B8BF88 /* ContentView.swift */,
 				758C1C942A0A34E100B8BF88 /* Assets.xcassets */,
@@ -127,6 +138,7 @@
 			files = (
 				758C1C982A0A34E100B8BF88 /* Preview Assets.xcassets in Resources */,
 				758C1C952A0A34E100B8BF88 /* Assets.xcassets in Resources */,
+				7558272B2C1095AF00CE5E9F /* countries_list.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
